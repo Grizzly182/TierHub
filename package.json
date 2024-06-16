@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "@types/react-beautiful-dnd": "^13.1.8",
+        "@types/react-dom": "^18.3.0",
+        "@vitejs/plugin-react": "^4.2.0",
+        "axios": "^1.6.4",
+        "bootstrap": "^5.2.3",
+        "laravel-vite-plugin": "^1.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "sass": "^1.56.1",
+        "vite": "^5.0"
+    },
+    "dependencies": {
+        "@dnd-kit/core": "^6.1.0",
+        "@dnd-kit/sortable": "^8.0.0",
+        "@dnd-kit/utilities": "^3.2.2",
+        "@emotion/react": "^11.11.4",
+        "@emotion/styled": "^11.11.5",
+        "@mui/material": "^5.15.16",
+        "@vitejs/plugin-react": "^4.2.1",
+        "dotenv": "^16.4.5",
+        "html2canvas": "^1.4.1",
+        "jquery": "^3.7.1",
+        "react-beautiful-dnd": "^13.1.1",
+        "react-dom": "^18.3.1",
+        "react-responsive-modal": "^6.4.2",
+        "react-toastify": "^10.0.5",
+        "styled-components": "^6.1.9",
+        "use-react-screenshot": "^4.0.0"
+    }
+}
