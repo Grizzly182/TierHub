@@ -9,6 +9,7 @@ use App\Http\Controllers\TierListsController;
 use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\CommentsController;
 
 Route::get('/', [HomeController::class, 'home'])->name('home');
 
@@ -31,7 +32,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/templates/destroy/{template}', [TemplatesController::class, 'destroy'])->name('templates.destroy');
 
     //comments
-    Route::post('/comments/store', [App\Http\Controllers\CommentsController::class, 'store'])->name('comments.store');
+    Route::post('/comments/store', [CommentsController::class, 'store'])->name('comments.store');
 });
 
 //images and stuff
