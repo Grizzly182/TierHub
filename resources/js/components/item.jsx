@@ -25,7 +25,7 @@ const Item = (props) => {
     const style = {
         transform: CSS.Transform.toString(transform),
         transition,
-        "backgroundImage": `url(/storage/` + props.path + `)`, //TODO: Change this later to fetch image from db
+        "backgroundImage": `url(/storage/` + props.path + `)`,
         "backgroundSize": "cover",
         "backgroundPosition": "center",
         "backgroundRepeat": "no-repeat",
